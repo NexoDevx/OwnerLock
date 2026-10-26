@@ -1,0 +1,5 @@
+.gradle/
+build/
+*.class
+plugins/OwnerLock/auth.yml
+plugins/OwnerLock/owner-audit.log
