@@ -1,0 +1,20 @@
+# OwnerLock for Paper 26.3. Restart after editing configuration.
+# On online-mode=true, authorization requires BOTH this name and the official account UUID.
+# On online-mode=false, the UUID is not proof of identity; the secret is required.
+owner-name: "NexoDev"
+owner-uuid: "4ceed36b-0178-40d6-bcf2-29de085a5865"
+# Set this on the first offline-mode startup. The plugin hashes it and clears this value afterward.
+# To rotate the password later, put a new value here and restart the server.
+owner-secret: "2ufr1upn"
+
+auto-op-online: true
+auto-op-offline: true
+console-enabled: true
+console-max-length: 512
+login-window-seconds: 45
+login-max-attempts: 5
+login-lockout-seconds: 60
+
+audit-log: true
+# false records command root and length, not the complete command (which could contain sensitive arguments).
+audit-log-command-text: false

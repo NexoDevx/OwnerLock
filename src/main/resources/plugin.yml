@@ -1,0 +1,6 @@
+name: OwnerLock
+version: 2.0.0-mc26.3
+main: br.com.nexodev.ownerlock.OwnerLockPlugin
+description: Owner-only authenticated administration for Paper 26.3.
+author: NexoDev
+api-version: '26.3'
